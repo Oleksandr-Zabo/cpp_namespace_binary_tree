@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <string>
 #include <windows.h> 
 using namespace std;
@@ -253,13 +253,13 @@ int main() {
 
     BinaryTree tree;
 
-    tree.addNode("apple", "яблоко");
-    tree.addNode("banana", "банан", 3);
-    tree.addNode("cherry", "вишня");
-    tree.addNode("date", "финик");
-    tree.addNode("elderberry", "бузина");
-    tree.addNode("fig", "инжир");
-    tree.addNode("grape", "виноград");
+    tree.addNode("apple", "СЏР±Р»РѕРєРѕ");
+    tree.addNode("banana", "Р±Р°РЅР°РЅ", 3);
+    tree.addNode("cherry", "РІРёС€РЅСЏ");
+    tree.addNode("date", "С„РёРЅРёРє");
+    tree.addNode("elderberry", "Р±СѓР·РёРЅР°");
+    tree.addNode("fig", "РёРЅР¶РёСЂ");
+    tree.addNode("grape", "РІРёРЅРѕРіСЂР°Рґ");
 
     tree.searchNode("apple");
     tree.searchNode("banana");
@@ -273,13 +273,13 @@ int main() {
     tree.displayTopWords(false);
 
 
-	tree.replaceNode("apple", "яблуко");
+	tree.replaceNode("apple", "СЏР±Р»СѓРєРѕ");
 	tree.searchNode("apple");
 
 	tree.deleteNode_ru("apple");
 	tree.searchNode("apple");
 
-    tree.replaceNode("apple", "яблуко");
+    tree.replaceNode("apple", "СЏР±Р»СѓРєРѕ");
     tree.searchNode("apple");
 
 
@@ -333,5 +333,6 @@ int main() {
 			break;
 		}
 	}
+
     return 0;
 }
