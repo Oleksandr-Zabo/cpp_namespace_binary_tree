@@ -245,7 +245,7 @@ int print_menu() {
     int choice;
     cin >> choice;
     return choice;
-}
+} 
 
 int main() {
     SetConsoleCP(1251);
